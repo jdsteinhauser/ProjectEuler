@@ -27,5 +27,6 @@ defmodule ProjectEuler do
 71636269561882670428252483600823257530420752963450
 """
     )
+    IO.puts ProjectEuler.Problems.Problem14.run(1_000_000)
   end
 end
